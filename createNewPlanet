@@ -1,0 +1,11 @@
+public static void createNewPlanet(String planetName) {
+        //напишите тут ваш код
+        int om = 0;
+        for (int i = 0; i < planets.size(); i++) {
+            if ((planets.get(i)).equals("Земля")) {
+                om = i;
+                break;
+            }
+        }
+        planets.add(om + 1, planetName);
+    }
